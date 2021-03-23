@@ -1,0 +1,374 @@
+2021-03-23 12:00:26.565  INFO 8244 --- [restartedMain] com.cognizant.app.truyum                 : Starting truyum using Java 15.0.1 on DESKTOP-43RH9JJ with PID 8244 (G:\EE\CODES\IMP IMP\Stage3-main\Spring Data JPA\885151\Practice Check\truyum\target\classes started by rajag in G:\EE\CODES\IMP IMP\Stage3-main\Spring Data JPA\885151\Practice Check\truyum)
+2021-03-23 12:00:26.571 DEBUG 8244 --- [restartedMain] com.cognizant.app.truyum                 : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-23 12:00:26.572  INFO 8244 --- [restartedMain] com.cognizant.app.truyum                 : No active profile set, falling back to default profiles: default
+2021-03-23 12:00:26.612  INFO 8244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-23 12:00:26.910  INFO 8244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 12:00:26.940  INFO 8244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+2021-03-23 12:00:27.525  INFO 8244 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 12:00:27.556  INFO 8244 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-23 12:00:27.649  INFO 8244 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 12:00:27.718  INFO 8244 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-23 12:00:27.845  INFO 8244 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-23 12:00:27.855  INFO 8244 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-03-23 12:00:28.241  INFO 8244 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 12:00:28.246  INFO 8244 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 12:00:28.267  INFO 8244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-23 12:00:28.514  INFO 8244 --- [restartedMain] com.cognizant.app.truyum                 : Started truyum in 2.171 seconds (JVM running for 2.74)
+2021-03-23 12:00:28.529 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-03-23 12:00:28.536 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-03-23 12:00:28.549 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-03-23 12:00:28.550 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-03-23 12:00:28.553 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-03-23 12:00:28.554 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-03-23 12:00:28.557 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-03-23 12:00:28.558 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-03-23 12:00:28.562 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-03-23 12:00:28.562 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-03-23 12:00:28.571 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : insert into menu_item (active, category, date_of_launch, free_delivery, name, price, id) values (?, ?, ?, ?, ?, ?, ?)
+2021-03-23 12:00:28.573 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [true]
+2021-03-23 12:00:28.573 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Main Course]
+2021-03-23 12:00:28.573 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [TIMESTAMP] - [Wed Mar 15 00:00:00 IST 2017]
+2021-03-23 12:00:28.574 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BOOLEAN] - [true]
+2021-03-23 12:00:28.574 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [Sandwich]
+2021-03-23 12:00:28.575 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [FLOAT] - [99.0]
+2021-03-23 12:00:28.575 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [6]
+2021-03-23 12:00:28.579 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : insert into menu_item (active, category, date_of_launch, free_delivery, name, price, id) values (?, ?, ?, ?, ?, ?, ?)
+2021-03-23 12:00:28.579 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [true]
+2021-03-23 12:00:28.580 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Main Course]
+2021-03-23 12:00:28.580 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [TIMESTAMP] - [Sat Dec 23 00:00:00 IST 2017]
+2021-03-23 12:00:28.580 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BOOLEAN] - [false]
+2021-03-23 12:00:28.580 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [Burger]
+2021-03-23 12:00:28.581 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [FLOAT] - [129.0]
+2021-03-23 12:00:28.581 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [7]
+2021-03-23 12:00:28.581 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : insert into menu_item (active, category, date_of_launch, free_delivery, name, price, id) values (?, ?, ?, ?, ?, ?, ?)
+2021-03-23 12:00:28.582 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [true]
+2021-03-23 12:00:28.582 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Main Course]
+2021-03-23 12:00:28.582 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [TIMESTAMP] - [Tue Aug 21 00:00:00 IST 2018]
+2021-03-23 12:00:28.583 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BOOLEAN] - [false]
+2021-03-23 12:00:28.583 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [Pizza]
+2021-03-23 12:00:28.583 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [FLOAT] - [149.0]
+2021-03-23 12:00:28.583 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [8]
+2021-03-23 12:00:28.584 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : insert into menu_item (active, category, date_of_launch, free_delivery, name, price, id) values (?, ?, ?, ?, ?, ?, ?)
+2021-03-23 12:00:28.584 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [false]
+2021-03-23 12:00:28.584 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Starters]
+2021-03-23 12:00:28.585 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [TIMESTAMP] - [Sun Jul 02 00:00:00 IST 2017]
+2021-03-23 12:00:28.585 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BOOLEAN] - [true]
+2021-03-23 12:00:28.585 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [French Fries]
+2021-03-23 12:00:28.585 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [FLOAT] - [57.0]
+2021-03-23 12:00:28.585 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [9]
+2021-03-23 12:00:28.586 DEBUG 8244 --- [restartedMain] org.hibernate.SQL                        : insert into menu_item (active, category, date_of_launch, free_delivery, name, price, id) values (?, ?, ?, ?, ?, ?, ?)
+2021-03-23 12:00:28.586 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [true]
+2021-03-23 12:00:28.586 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Dessert]
+2021-03-23 12:00:28.586 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [TIMESTAMP] - [Wed Nov 02 00:00:00 IST 2022]
+2021-03-23 12:00:28.587 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BOOLEAN] - [true]
+2021-03-23 12:00:28.587 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [Chocolate Brownie]
+2021-03-23 12:00:28.587 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [FLOAT] - [32.0]
+2021-03-23 12:00:28.587 TRACE 8244 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [10]
+2021-03-23 12:00:28.595  INFO 8244 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 12:00:28.598  INFO 8244 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-23 12:00:28.603  INFO 8244 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-23 12:16:31.470  INFO 2648 --- [restartedMain] c.cognizant.dao.MenuItemDaoSqlImplTest   : Starting MenuItemDaoSqlImplTest using Java 15.0.1 on DESKTOP-43RH9JJ with PID 2648 (G:\EE\CODES\IMP IMP\Stage3-main\Spring Data JPA\885151\Practice Check\truyum\target\classes started by rajag in G:\EE\CODES\IMP IMP\Stage3-main\Spring Data JPA\885151\Practice Check\truyum)
+2021-03-23 12:16:31.472 DEBUG 2648 --- [restartedMain] c.cognizant.dao.MenuItemDaoSqlImplTest   : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-23 12:16:31.472  INFO 2648 --- [restartedMain] c.cognizant.dao.MenuItemDaoSqlImplTest   : No active profile set, falling back to default profiles: default
+2021-03-23 12:16:31.513  INFO 2648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-23 12:16:31.814  INFO 2648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 12:16:31.856  INFO 2648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2021-03-23 12:16:32.669  INFO 2648 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 12:16:32.709  INFO 2648 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-23 12:16:32.824  INFO 2648 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 12:16:32.969  INFO 2648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-23 12:16:33.125  INFO 2648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-23 12:16:33.137  INFO 2648 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-03-23 12:16:33.549  INFO 2648 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 12:16:33.555  INFO 2648 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 12:16:33.571  INFO 2648 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-23 12:16:33.947  INFO 2648 --- [restartedMain] c.cognizant.dao.MenuItemDaoSqlImplTest   : Started MenuItemDaoSqlImplTest in 2.767 seconds (JVM running for 3.236)
+2021-03-23 12:18:42.583 DEBUG 2648 --- [restartedMain] org.hibernate.SQL                        : select menuitem0_.id as id1_0_, menuitem0_.active as active2_0_, menuitem0_.category as category3_0_, menuitem0_.date_of_launch as date_of_4_0_, menuitem0_.free_delivery as free_del5_0_, menuitem0_.name as name6_0_, menuitem0_.price as price7_0_ from menu_item menuitem0_
+2021-03-23 12:18:42.588 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [1]
+2021-03-23 12:18:42.592 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.592 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 12:18:42.593 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-03-15 00:00:00.0]
+2021-03-23 12:18:42.593 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.593 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Sandwich]
+2021-03-23 12:18:42.594 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [99.0]
+2021-03-23 12:18:42.594 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [2]
+2021-03-23 12:18:42.595 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.595 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 12:18:42.595 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-12-23 00:00:00.0]
+2021-03-23 12:18:42.595 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [false]
+2021-03-23 12:18:42.596 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Hotdog]
+2021-03-23 12:18:42.596 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [129.0]
+2021-03-23 12:18:42.596 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [3]
+2021-03-23 12:18:42.596 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.596 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 12:18:42.597 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2018-08-21 00:00:00.0]
+2021-03-23 12:18:42.597 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [false]
+2021-03-23 12:18:42.597 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Pizza]
+2021-03-23 12:18:42.597 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [149.0]
+2021-03-23 12:18:42.597 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [4]
+2021-03-23 12:18:42.598 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [false]
+2021-03-23 12:18:42.598 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Starters]
+2021-03-23 12:18:42.598 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-07-02 00:00:00.0]
+2021-03-23 12:18:42.598 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.599 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [French Fries]
+2021-03-23 12:18:42.599 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [57.0]
+2021-03-23 12:18:42.599 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [5]
+2021-03-23 12:18:42.599 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.600 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Dessert]
+2021-03-23 12:18:42.600 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2022-11-02 00:00:00.0]
+2021-03-23 12:18:42.600 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.600 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Chocolate Brownie]
+2021-03-23 12:18:42.600 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [32.0]
+2021-03-23 12:18:42.601 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [6]
+2021-03-23 12:18:42.601 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.601 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 12:18:42.601 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-03-15 00:00:00.0]
+2021-03-23 12:18:42.601 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.602 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Sandwich]
+2021-03-23 12:18:42.602 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [99.0]
+2021-03-23 12:18:42.602 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [7]
+2021-03-23 12:18:42.602 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.602 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 12:18:42.603 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-12-23 00:00:00.0]
+2021-03-23 12:18:42.603 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [false]
+2021-03-23 12:18:42.603 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Burger]
+2021-03-23 12:18:42.603 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [129.0]
+2021-03-23 12:18:42.604 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [8]
+2021-03-23 12:18:42.604 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.604 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 12:18:42.604 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2018-08-21 00:00:00.0]
+2021-03-23 12:18:42.605 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [false]
+2021-03-23 12:18:42.605 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Pizza]
+2021-03-23 12:18:42.605 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [149.0]
+2021-03-23 12:18:42.605 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [9]
+2021-03-23 12:18:42.605 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [false]
+2021-03-23 12:18:42.606 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Starters]
+2021-03-23 12:18:42.606 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-07-02 00:00:00.0]
+2021-03-23 12:18:42.606 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.606 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [French Fries]
+2021-03-23 12:18:42.606 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [57.0]
+2021-03-23 12:18:42.607 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [10]
+2021-03-23 12:18:42.607 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.607 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Dessert]
+2021-03-23 12:18:42.607 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2022-11-02 00:00:00.0]
+2021-03-23 12:18:42.607 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:18:42.608 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Chocolate Brownie]
+2021-03-23 12:18:42.608 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [32.0]
+2021-03-23 12:20:52.055 DEBUG 2648 --- [restartedMain] org.hibernate.SQL                        : select menuitem0_.id as id1_0_0_, menuitem0_.active as active2_0_0_, menuitem0_.category as category3_0_0_, menuitem0_.date_of_launch as date_of_4_0_0_, menuitem0_.free_delivery as free_del5_0_0_, menuitem0_.name as name6_0_0_, menuitem0_.price as price7_0_0_ from menu_item menuitem0_ where menuitem0_.id=?
+2021-03-23 12:20:52.056 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [2]
+2021-03-23 12:20:52.058 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:20:52.059 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 12:20:52.059 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_0_] : [TIMESTAMP]) - [2017-12-23 00:00:00.0]
+2021-03-23 12:20:52.059 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_0_] : [BOOLEAN]) - [false]
+2021-03-23 12:20:52.059 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_0_] : [VARCHAR]) - [Hotdog]
+2021-03-23 12:20:52.060 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_0_] : [FLOAT]) - [129.0]
+2021-03-23 12:20:52.072 DEBUG 2648 --- [restartedMain] org.hibernate.SQL                        : select menuitem0_.id as id1_0_0_, menuitem0_.active as active2_0_0_, menuitem0_.category as category3_0_0_, menuitem0_.date_of_launch as date_of_4_0_0_, menuitem0_.free_delivery as free_del5_0_0_, menuitem0_.name as name6_0_0_, menuitem0_.price as price7_0_0_ from menu_item menuitem0_ where menuitem0_.id=?
+2021-03-23 12:20:52.072 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [2]
+2021-03-23 12:20:52.073 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:20:52.074 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 12:20:52.074 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_0_] : [TIMESTAMP]) - [2017-12-23 00:00:00.0]
+2021-03-23 12:20:52.074 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_0_] : [BOOLEAN]) - [false]
+2021-03-23 12:20:52.074 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_0_] : [VARCHAR]) - [Hotdog]
+2021-03-23 12:20:52.075 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_0_] : [FLOAT]) - [129.0]
+2021-03-23 12:21:00.533 DEBUG 2648 --- [restartedMain] org.hibernate.SQL                        : select menuitem0_.id as id1_0_0_, menuitem0_.active as active2_0_0_, menuitem0_.category as category3_0_0_, menuitem0_.date_of_launch as date_of_4_0_0_, menuitem0_.free_delivery as free_del5_0_0_, menuitem0_.name as name6_0_0_, menuitem0_.price as price7_0_0_ from menu_item menuitem0_ where menuitem0_.id=?
+2021-03-23 12:21:00.534 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [2]
+2021-03-23 12:21:00.535 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_0_] : [BOOLEAN]) - [true]
+2021-03-23 12:21:00.535 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 12:21:00.536 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_0_] : [TIMESTAMP]) - [2017-12-23 00:00:00.0]
+2021-03-23 12:21:00.536 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_0_] : [BOOLEAN]) - [false]
+2021-03-23 12:21:00.536 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_0_] : [VARCHAR]) - [Hotdog]
+2021-03-23 12:21:00.536 TRACE 2648 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_0_] : [FLOAT]) - [129.0]
+2021-03-23 12:51:50.172  INFO 2648 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-23 18:22:34.537  INFO 18316 --- [restartedMain] com.cognizant.app.truyum                 : Starting truyum using Java 15.0.1 on DESKTOP-43RH9JJ with PID 18316 (G:\EE\CODES\IMP IMP\Stage3-main\Spring Data JPA\885151\Practice Check\truyum\target\classes started by rajag in G:\EE\CODES\IMP IMP\Stage3-main\Spring Data JPA\885151\Practice Check\truyum)
+2021-03-23 18:22:34.541 DEBUG 18316 --- [restartedMain] com.cognizant.app.truyum                 : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-23 18:22:34.542  INFO 18316 --- [restartedMain] com.cognizant.app.truyum                 : No active profile set, falling back to default profiles: default
+2021-03-23 18:22:34.583  INFO 18316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-23 18:22:34.854  INFO 18316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 18:22:34.904  INFO 18316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2021-03-23 18:22:35.554  INFO 18316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 18:22:35.608  INFO 18316 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-23 18:22:35.756  INFO 18316 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 18:22:35.882  INFO 18316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-23 18:22:36.179  INFO 18316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-23 18:22:36.199  INFO 18316 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-03-23 18:22:36.704  INFO 18316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 18:22:36.710  INFO 18316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 18:22:36.736  INFO 18316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-23 18:22:37.014  INFO 18316 --- [restartedMain] com.cognizant.app.truyum                 : Started truyum in 2.724 seconds (JVM running for 3.842)
+2021-03-23 18:22:37.030 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-03-23 18:22:37.037 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-03-23 18:22:37.053 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-03-23 18:22:37.054 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-03-23 18:22:37.057 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-03-23 18:22:37.058 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-03-23 18:22:37.061 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-03-23 18:22:37.062 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-03-23 18:22:37.065 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : select next_val as id_val from hibernate_sequence for update
+2021-03-23 18:22:37.066 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : update hibernate_sequence set next_val= ? where next_val=?
+2021-03-23 18:22:37.075 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : insert into menu_item (active, category, date_of_launch, free_delivery, name, price, id) values (?, ?, ?, ?, ?, ?, ?)
+2021-03-23 18:22:37.076 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [true]
+2021-03-23 18:22:37.077 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Main Course]
+2021-03-23 18:22:37.077 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [TIMESTAMP] - [Wed Mar 15 00:00:00 IST 2017]
+2021-03-23 18:22:37.078 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BOOLEAN] - [true]
+2021-03-23 18:22:37.078 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [Sandwich]
+2021-03-23 18:22:37.078 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [FLOAT] - [99.0]
+2021-03-23 18:22:37.079 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [11]
+2021-03-23 18:22:37.083 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : insert into menu_item (active, category, date_of_launch, free_delivery, name, price, id) values (?, ?, ?, ?, ?, ?, ?)
+2021-03-23 18:22:37.084 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [true]
+2021-03-23 18:22:37.084 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Main Course]
+2021-03-23 18:22:37.084 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [TIMESTAMP] - [Sat Dec 23 00:00:00 IST 2017]
+2021-03-23 18:22:37.084 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BOOLEAN] - [false]
+2021-03-23 18:22:37.085 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [Burger]
+2021-03-23 18:22:37.085 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [FLOAT] - [129.0]
+2021-03-23 18:22:37.085 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [12]
+2021-03-23 18:22:37.085 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : insert into menu_item (active, category, date_of_launch, free_delivery, name, price, id) values (?, ?, ?, ?, ?, ?, ?)
+2021-03-23 18:22:37.086 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [true]
+2021-03-23 18:22:37.086 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Main Course]
+2021-03-23 18:22:37.086 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [TIMESTAMP] - [Tue Aug 21 00:00:00 IST 2018]
+2021-03-23 18:22:37.087 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BOOLEAN] - [false]
+2021-03-23 18:22:37.087 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [Pizza]
+2021-03-23 18:22:37.087 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [FLOAT] - [149.0]
+2021-03-23 18:22:37.087 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [13]
+2021-03-23 18:22:37.088 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : insert into menu_item (active, category, date_of_launch, free_delivery, name, price, id) values (?, ?, ?, ?, ?, ?, ?)
+2021-03-23 18:22:37.088 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [false]
+2021-03-23 18:22:37.089 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Starters]
+2021-03-23 18:22:37.089 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [TIMESTAMP] - [Sun Jul 02 00:00:00 IST 2017]
+2021-03-23 18:22:37.089 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BOOLEAN] - [true]
+2021-03-23 18:22:37.089 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [French Fries]
+2021-03-23 18:22:37.089 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [FLOAT] - [57.0]
+2021-03-23 18:22:37.090 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [14]
+2021-03-23 18:22:37.090 DEBUG 18316 --- [restartedMain] org.hibernate.SQL                        : insert into menu_item (active, category, date_of_launch, free_delivery, name, price, id) values (?, ?, ?, ?, ?, ?, ?)
+2021-03-23 18:22:37.091 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [true]
+2021-03-23 18:22:37.091 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Dessert]
+2021-03-23 18:22:37.091 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [TIMESTAMP] - [Wed Nov 02 00:00:00 IST 2022]
+2021-03-23 18:22:37.091 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [BOOLEAN] - [true]
+2021-03-23 18:22:37.092 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [Chocolate Brownie]
+2021-03-23 18:22:37.092 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [FLOAT] - [32.0]
+2021-03-23 18:22:37.092 TRACE 18316 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [15]
+2021-03-23 18:22:37.101  INFO 18316 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 18:22:37.104  INFO 18316 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-23 18:22:37.109  INFO 18316 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-23 18:23:07.049  INFO 20740 --- [restartedMain] c.cognizant.dao.MenuItemDaoSqlImplTest   : Starting MenuItemDaoSqlImplTest using Java 15.0.1 on DESKTOP-43RH9JJ with PID 20740 (G:\EE\CODES\IMP IMP\Stage3-main\Spring Data JPA\885151\Practice Check\truyum\target\classes started by rajag in G:\EE\CODES\IMP IMP\Stage3-main\Spring Data JPA\885151\Practice Check\truyum)
+2021-03-23 18:23:07.051 DEBUG 20740 --- [restartedMain] c.cognizant.dao.MenuItemDaoSqlImplTest   : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-23 18:23:07.051  INFO 20740 --- [restartedMain] c.cognizant.dao.MenuItemDaoSqlImplTest   : No active profile set, falling back to default profiles: default
+2021-03-23 18:23:07.093  INFO 20740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-23 18:23:07.425  INFO 20740 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 18:23:07.474  INFO 20740 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2021-03-23 18:23:08.372  INFO 20740 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 18:23:08.415  INFO 20740 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-23 18:23:08.536  INFO 20740 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 18:23:08.707  INFO 20740 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-23 18:23:08.886  INFO 20740 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-23 18:23:08.898  INFO 20740 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-03-23 18:23:09.334  INFO 20740 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 18:23:09.341  INFO 20740 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 18:23:09.357  INFO 20740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-23 18:23:09.764  INFO 20740 --- [restartedMain] c.cognizant.dao.MenuItemDaoSqlImplTest   : Started MenuItemDaoSqlImplTest in 3.034 seconds (JVM running for 3.545)
+2021-03-23 18:23:17.312 DEBUG 20740 --- [restartedMain] org.hibernate.SQL                        : select menuitem0_.id as id1_0_, menuitem0_.active as active2_0_, menuitem0_.category as category3_0_, menuitem0_.date_of_launch as date_of_4_0_, menuitem0_.free_delivery as free_del5_0_, menuitem0_.name as name6_0_, menuitem0_.price as price7_0_ from menu_item menuitem0_
+2021-03-23 18:23:17.318 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [1]
+2021-03-23 18:23:17.322 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.322 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 18:23:17.323 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-03-15 00:00:00.0]
+2021-03-23 18:23:17.323 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.324 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Sandwich]
+2021-03-23 18:23:17.324 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [99.0]
+2021-03-23 18:23:17.325 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [2]
+2021-03-23 18:23:17.325 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.325 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 18:23:17.326 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-12-23 00:00:00.0]
+2021-03-23 18:23:17.326 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [false]
+2021-03-23 18:23:17.326 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Hotdog]
+2021-03-23 18:23:17.326 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [129.0]
+2021-03-23 18:23:17.326 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [3]
+2021-03-23 18:23:17.327 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.327 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 18:23:17.327 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2018-08-21 00:00:00.0]
+2021-03-23 18:23:17.327 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [false]
+2021-03-23 18:23:17.327 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Pizza]
+2021-03-23 18:23:17.328 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [149.0]
+2021-03-23 18:23:17.328 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [4]
+2021-03-23 18:23:17.328 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [false]
+2021-03-23 18:23:17.329 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Starters]
+2021-03-23 18:23:17.329 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-07-02 00:00:00.0]
+2021-03-23 18:23:17.329 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.329 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [French Fries]
+2021-03-23 18:23:17.329 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [57.0]
+2021-03-23 18:23:17.330 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [5]
+2021-03-23 18:23:17.330 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.330 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Dessert]
+2021-03-23 18:23:17.331 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2022-11-02 00:00:00.0]
+2021-03-23 18:23:17.331 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.431 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Chocolate Brownie]
+2021-03-23 18:23:17.431 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [32.0]
+2021-03-23 18:23:17.431 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [6]
+2021-03-23 18:23:17.432 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.432 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 18:23:17.432 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-03-15 00:00:00.0]
+2021-03-23 18:23:17.432 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.432 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Sandwich]
+2021-03-23 18:23:17.432 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [99.0]
+2021-03-23 18:23:17.433 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [7]
+2021-03-23 18:23:17.433 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.433 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 18:23:17.434 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-12-23 00:00:00.0]
+2021-03-23 18:23:17.434 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [false]
+2021-03-23 18:23:17.434 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Burger]
+2021-03-23 18:23:17.434 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [129.0]
+2021-03-23 18:23:17.434 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [8]
+2021-03-23 18:23:17.435 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.435 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 18:23:17.435 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2018-08-21 00:00:00.0]
+2021-03-23 18:23:17.435 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [false]
+2021-03-23 18:23:17.435 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Pizza]
+2021-03-23 18:23:17.436 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [149.0]
+2021-03-23 18:23:17.436 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [9]
+2021-03-23 18:23:17.436 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [false]
+2021-03-23 18:23:17.436 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Starters]
+2021-03-23 18:23:17.436 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-07-02 00:00:00.0]
+2021-03-23 18:23:17.437 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.437 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [French Fries]
+2021-03-23 18:23:17.437 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [57.0]
+2021-03-23 18:23:17.437 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [10]
+2021-03-23 18:23:17.437 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.438 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Dessert]
+2021-03-23 18:23:17.438 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2022-11-02 00:00:00.0]
+2021-03-23 18:23:17.438 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.438 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Chocolate Brownie]
+2021-03-23 18:23:17.438 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [32.0]
+2021-03-23 18:23:17.439 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [11]
+2021-03-23 18:23:17.439 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.439 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 18:23:17.440 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-03-15 00:00:00.0]
+2021-03-23 18:23:17.440 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.440 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Sandwich]
+2021-03-23 18:23:17.440 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [99.0]
+2021-03-23 18:23:17.440 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [12]
+2021-03-23 18:23:17.441 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.441 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 18:23:17.441 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-12-23 00:00:00.0]
+2021-03-23 18:23:17.442 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [false]
+2021-03-23 18:23:17.442 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Burger]
+2021-03-23 18:23:17.442 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [129.0]
+2021-03-23 18:23:17.442 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [13]
+2021-03-23 18:23:17.442 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.443 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Main Course]
+2021-03-23 18:23:17.443 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2018-08-21 00:00:00.0]
+2021-03-23 18:23:17.443 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [false]
+2021-03-23 18:23:17.443 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Pizza]
+2021-03-23 18:23:17.443 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [149.0]
+2021-03-23 18:23:17.443 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [14]
+2021-03-23 18:23:17.444 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [false]
+2021-03-23 18:23:17.444 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Starters]
+2021-03-23 18:23:17.444 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2017-07-02 00:00:00.0]
+2021-03-23 18:23:17.444 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.444 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [French Fries]
+2021-03-23 18:23:17.445 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [57.0]
+2021-03-23 18:23:17.445 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [INTEGER]) - [15]
+2021-03-23 18:23:17.445 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([active2_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.446 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([category3_0_] : [VARCHAR]) - [Dessert]
+2021-03-23 18:23:17.446 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([date_of_4_0_] : [TIMESTAMP]) - [2022-11-02 00:00:00.0]
+2021-03-23 18:23:17.446 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([free_del5_0_] : [BOOLEAN]) - [true]
+2021-03-23 18:23:17.446 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name6_0_] : [VARCHAR]) - [Chocolate Brownie]
+2021-03-23 18:23:17.446 TRACE 20740 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price7_0_] : [FLOAT]) - [32.0]
